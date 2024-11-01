@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    width: 100%;
+    font-family: Roboto;
+}
+
+p {
+    margin: 0px;
+    vertical-align: top;
+}
+
+#titulo {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#owner, #detalhes {
+    margin: 5px 0px;
+    font-size: 12px;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0px 1rem;
+    margin: 0px 0px 1rem 0px;
+    height: 56px;
+   
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;  
+    margin: 0px;
+    width: 146px;
+    height: 24px;
+}
+
+#videoicons{
+    display: flex;
+    justify-content: space-between;  
+    margin:0px;
+    width: 130px;
+    height: 34px;
+}
+
+main {
+    display: flex;
+    padding: 0px 20px;  
+
+  
+}
+
+.watchingvideo {
+    width: 50%;
+     
+}
+
+.menudecontrole {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 2rem;
+padding: 0rem 3rem 0rem 0rem;
+}
+
+#video {
+    position: relative;
+    width: 100%;
+    object-fit: contain;
+}
+
+.navinterna {
+    position: relative;
+    left: 1rem;
+    width: 375px;
+  
+        
+    
+}
+
+.box {
+    display: flex;
+    height: 89px;
+    margin: 0px 0px 10px 0px;
+    width: 375px;
+    
+    justify-content: space-between;
+    
+}
+
+#imagem {
+    position: relative;
+    object-fit: contain;  
+    height: 20px;
+   
+}
+
+#texto {
+    display: inline;
+    position: relative;
+    padding: 0px 0px 0px 10px;
+    height: 89px;    
+    margin-top: 0px;
+    
+}
+
+
+
+
